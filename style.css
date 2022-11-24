@@ -2,8 +2,12 @@ body,
 html {
   margin: 0px;
   padding: 0px;
+  height: 100%;
+  width: 100%;
   position: fixed;
-background: black;}
+background: black;
+}
+
 
 .icon-bar {
   position: fixed;
@@ -13,7 +17,6 @@ background: black;}
   transform: translateY(-50%);
 }
 
-/* Style the icon bar links */
 .icon-bar a {
   display: block;
   text-align: center;
@@ -22,8 +25,6 @@ background: black;}
   color: white;
   font-size: 20px;
 }
-
-/* Style the social media icons with color, if you want */
 .icon-bar a:hover {
   background-color: #000;
 }
